@@ -2,7 +2,6 @@ import image3 from "../components/img/js2.png";
 import image from "../components/img/html2.png";
 import image2 from "../components/img/css2.png";
 import image4 from "../components/img/react2.png";
-import image5 from "../components/img/node-js.png";
 function Carousel() {
   return (
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -33,12 +32,6 @@ function Carousel() {
           data-bs-slide-to="3"
           aria-label="Slide 4"
         ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="4"
-          aria-label="Slide 5"
-        ></button>
       </div>
       <div id="cont-habi" class="carousel-inner">
         <div id="habi1" class="carousel-item active">
@@ -56,10 +49,6 @@ function Carousel() {
         <div id="habi4" class="carousel-item">
           <p>REACT</p>
           <img src={image4} class="d-block w-100" alt="..." id="html" />
-        </div>
-        <div id="habi5" class="carousel-item">
-          <p>NODE JS</p>
-          <img src={image5} class="d-block w-100" alt="..." id="html" />
         </div>
       </div>
       <button
